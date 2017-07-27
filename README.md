@@ -12,4 +12,13 @@ Is a simple way to view the world’s moments. Choose the event (wedding parties
 • Track an event before your presence and see what’s taking place there.
 
 
-This is the link to the Application https://play.google.com/store/apps/details?id=pixsor.app.huzykamz.pixoradmin , you can download it on **Google Play store**.
+## Technologies Used:
+1.Java
+
+2.Xml.
+
+3.Firebase (Handling both Storage and Database).
+
+4.Pushbots (Handling push notifications).
+
+This is the link to the Application https://play.google.com/store/apps/details?id=pixsor.app.h
