@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33043b</color>
+    <color name="colorPrimaryDark">#370750</color>
+    <color name="colorAccent">#43015c</color>
+    <color name="color_background_transparent">#00ffffff</color>
+    <color name="colorLight">#531869</color>
+    <color name="image_video_bg">#b7d5e9</color>
+    <color name="White">#fff</color>
+    <color name="grayColor">#c2c2c2</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="background">#231b26</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="company.override.huzykamz.pixsar.ContactUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="30sp"
+                android:textColor="#fff"
+                android:id="@+id/contact_us"
+                android:text="@string/contact_us"
+                />
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_width="match_parent"
+                android:text="0750182773"
+                android:id="@+id/contact_one"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_margin="27sp"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_width="match_parent"
+                android:text="0700304850"
+                android:textColor="#fff"
+                android:id="@+id/contact_two"
+                android:gravity="center"
+                android:layout_margin="27sp"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_width="match_parent"
+                android:text="0704594180"
+                android:textColor="#fff"
+                android:id="@+id/contact_three"
+                android:gravity="center"
+                android:layout_margin="27sp"
+                android:layout_height="match_parent" />
+
+
+
+            <company.override.huzykamz.pixsar.customization.LobsterTwo
+                android:layout_width="fill_parent"
+                android:text="PixsarApp Better Moments"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:textColor="#fff"
+                android:textSize="28sp"
+                android:id="@+id/theme_two"
+                android:gravity="center"
+                android:layout_margin="20sp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

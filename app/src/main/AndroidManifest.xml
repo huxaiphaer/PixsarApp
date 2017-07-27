@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pixsor.app.huzykamz.pixoradmin">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- android:largeHeap="true" -->
+    <!-- android:hardwareAccelerated="false" -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="company.override.huzykamz.pixsar.PixsorOfflineCapability"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name="company.override.huzykamz.pixsar.customHandler" />
+
+        <activity
+            android:name="company.override.huzykamz.pixsar.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="company.override.huzykamz.pixsar.GraduationListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.BirthdayListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.WeddingListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.IntroductionListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.BlogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.ViewSingleImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Developers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.VideoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.model.NotificatonManager"
+            android:screenOrientation="portrait"
+
+                          android:theme="@style/AppDialogTheme" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.BlogScrolling"
+            android:label="@string/title_activity_blog_scrolling"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="company.override.huzykamz.pixsar.Test" />
+        <activity android:name="company.override.huzykamz.pixsar.WhatWeAreAbout" />
+        <activity android:name="company.override.huzykamz.pixsar.ContactUs" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.Tabs"
+            android:label="@string/title_activity_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="company.override.huzykamz.pixsar.ScrollingActivity"
+            android:label="@string/title_activity_scrolling" />
+        <activity android:name="company.override.huzykamz.pixsar.PhotoFragment" />
+        <activity android:name="company.override.huzykamz.pixsar.VideoFragment"></activity>
+    </application>
+
+</manifest>

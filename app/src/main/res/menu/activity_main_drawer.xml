@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_graduation"
+            android:icon="@drawable/graduation_pic"
+            android:title="Graduation Parties" />
+        <item
+            android:id="@+id/nav_wedding"
+            android:icon="@drawable/wedding"
+            android:title="Wedding Parties" />
+        <item
+            android:id="@+id/nav_introduction"
+            android:icon="@drawable/introduction"
+            android:title="Introduction Parties" />
+        <item
+            android:id="@+id/nav_birthday"
+            android:icon="@drawable/birthday_icon"
+            android:title="Birthday Parties" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_phone"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_what"
+                android:icon="@drawable/ic_what_we_are_about"
+                android:title="What we are About" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+
+
+
+</menu>

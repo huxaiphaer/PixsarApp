@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_what_we_are_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background"
+    tools:context="company.override.huzykamz.pixsar.WhatWeAreAbout">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <company.override.huzykamz.pixsar.customization.LobsterTwo
+                android:layout_width="match_parent"
+                android:text="What We Are About."
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_margin="30dp"
+                android:id="@+id/whatweAreabout"
+                android:textColor="#fff"
+                android:textSize="19dp"
+                android:text="@string/what_we_are_about"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.LobsterTwo
+                android:layout_width="match_parent"
+                android:text="How to Search a Function/an Event."
+                android:textColor="#fff"
+                android:textSize="30sp"
+
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_margin="30dp"
+                android:id="@+id/search"
+                android:textSize="19dp"
+                android:textColor="#fff"
+                android:text="@string/how_to_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <company.override.huzykamz.pixsar.customization.LobsterTwo
+                android:layout_width="match_parent"
+                android:text="How to Reach Us."
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:id="@+id/reach"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.FjallaOneRegular
+                android:layout_margin="30dp"
+                android:id="@+id/reach_us"
+                android:textColor="#fff"
+                android:textSize="19dp"
+                android:text="@string/reach_us"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <company.override.huzykamz.pixsar.customization.LobsterTwo
+                android:layout_margin="14dp"
+                android:id="@+id/theme_app"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:gravity="center"
+
+                android:text="@string/theme_app"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
