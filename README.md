@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/eb70c87fc3a8e0e5f790/maintainability)](https://codeclimate.com/github/huxaiphaer/PixsarApp/maintainability)
 # PixsarApp.
 
 Is a simple way to view the world’s moments. Choose the event (wedding parties, graduation parties etc.) of your friends and family to see what they’re up to, and discover events from all over the world that are sharing things you love.
