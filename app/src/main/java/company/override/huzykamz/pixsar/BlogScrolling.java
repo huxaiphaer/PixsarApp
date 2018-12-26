@@ -193,7 +193,7 @@ public class BlogScrolling extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new PhotoFragment(), "Photos");
-        adapter.addFragment(new VideoFragment(), "Videos");
+//        adapter.addFragment(new VideoFragment(), "Videos");
 
         viewPager.setAdapter(adapter);
     }

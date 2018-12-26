@@ -13,29 +13,23 @@ import com.squareup.picasso.Picasso;
 /**
  * Created by HUZY_KAMZ on 10/2/2016.
  */
-public class PixsorOfflineCapability extends Application{
+public class PixsorOfflineCapability extends Application {
     private Context c;
 
     @Override
     public void onCreate() {
         super.onCreate();
 
-        //Enabling Offline Capability...On strings and Images as well .....(Receiving Notifications)
+        /*Pushbots initialization.*/
+        Pushbots.sharedInstance().init(this);
 
-
-         //pushbots initialisation
-            Pushbots.sharedInstance().init(this);
-
-
-            FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-            Picasso.Builder builder = new Picasso.Builder(this);
-            builder.downloader(new OkHttpDownloader(this, Integer.MAX_VALUE));
-            Picasso built = builder.build();
-            built.setIndicatorsEnabled(false);
-            built.setLoggingEnabled(true);
-            Picasso.setSingletonInstance(built);
-
-
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+        Picasso.Builder builder = new Picasso.Builder(this);
+        builder.downloader(new OkHttpDownloader(this, Integer.MAX_VALUE));
+        Picasso built = builder.build();
+        built.setIndicatorsEnabled(false);
+        built.setLoggingEnabled(true);
+        Picasso.setSingletonInstance(built);
 
 
     }
@@ -51,7 +45,7 @@ public class PixsorOfflineCapability extends Application{
         return connectivityManager.getActiveNetworkInfo() != null && connectivityManager.getActiveNetworkInfo().isConnected();
     }
 
-    public void Me (){
+    public void Me() {
 
     }
 }
