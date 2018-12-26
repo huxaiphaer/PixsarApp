@@ -4,9 +4,10 @@ buildscript {
     repositories {
         jcenter()
         mavenCentral()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:3.1.4'
         classpath 'com.google.gms:google-services:3.0.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -17,7 +18,26 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
+        google()
     }
+}
+
+
+ext{
+
+    supportLibraryVersion = '28.0.0'
+    daimajiaSliderVersion ='1.1.5@aar'
+    nineoldandroidsVersion='library:2.4.0'
+    FontinatorVersion ='1.1.3'
+    firebaseVersion='16.0.1'
+    gcmVersion='16.0.0'
+    multidexVersion ='1.0.3'
+    fontinatorVersion ='1.1.3'
+    okHttpVersion='2.4.0'
+    firebaseuiVersion ='0.4.3'
+    pushbotsVersion='3.2.3@aar'
+    picassoVersion ='2.5.2'
+
 }
 
 task clean(type: Delete) {
